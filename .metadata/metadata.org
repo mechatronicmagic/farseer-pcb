@@ -409,6 +409,11 @@ make kicad-edits
 exit
 #+END_EXAMPLE
 
+#+BEGIN_EXAMPLE
+make filter-edits
+exit
+#+END_EXAMPLE
+
 * Tangled Files                                                    :noexport:
 
 #+BEGIN_SRC org :tangle ../README.org :exports none :noweb yes

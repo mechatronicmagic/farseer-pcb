@@ -1,15 +1,15 @@
-- [Repository Info](#org8175d29)
-- [Images](#org11c3d80)
-- [Schematic](#org97d0d8a)
-- [PCB](#org8b678ba)
-- [Bill of Materials](#orgc61f343)
-- [Development](#org061c413)
+- [Repository Info](#org3efd3b6)
+- [Images](#org4000d6c)
+- [Schematic](#org9702aa9)
+- [PCB](#orgc4c3abc)
+- [Bill of Materials](#org9a89b54)
+- [Development](#org04cc7a2)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org8175d29"></a>
+<a id="org3efd3b6"></a>
 
 # Repository Info
 
@@ -54,7 +54,7 @@ The oscillating voltage signal can be fed into a data acquisition card, oscillos
 This device was first created at Caltech in the Dickinson lab in collaboration with Gaby Maimon around 2010. It has transformed over several generations, getting smaller and more robust each iteration. It has been used on rigs in multiple universities and research institutes and has been referenced in several papers. A couple of iterations were designed in collaboration with Sung Soo Kim and the Card lab at Janelia Research Campus. The latest version was created in collaboration with the Suver lab at Vanderbilt.
 
 
-<a id="org11c3d80"></a>
+<a id="org4000d6c"></a>
 
 # Images
 
@@ -71,7 +71,7 @@ This device was first created at Caltech in the Dickinson lab in collaboration w
 <img src="./documentation/pcb/right.png" width="1920">
 
 
-<a id="org97d0d8a"></a>
+<a id="org9702aa9"></a>
 
 # Schematic
 
@@ -88,12 +88,12 @@ This device was first created at Caltech in the Dickinson lab in collaboration w
 <img src="./documentation/schematic/wingbeat_detector-assembly.svg" width="1920">
 
 
-<a id="org8b678ba"></a>
+<a id="orgc4c3abc"></a>
 
 # PCB
 
 
-<a id="orgc61f343"></a>
+<a id="org9a89b54"></a>
 
 # Bill of Materials
 
@@ -123,7 +123,7 @@ This device was first created at Caltech in the Dickinson lab in collaboration w
 |      | Supplemental BOM Version: 1.0      |                          |                     |          | Total  | 1010.84 |
 
 
-<a id="org061c413"></a>
+<a id="org04cc7a2"></a>
 
 # Development
 
@@ -146,4 +146,7 @@ This device was first created at Caltech in the Dickinson lab in collaboration w
 ## Edit project
 
     make kicad-edits
+    exit
+
+    make filter-edits
     exit
