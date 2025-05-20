@@ -11,222 +11,6 @@
 		(company "Peter Polidoro")
 	)
 	(lib_symbols
-		(symbol "Janelia:CONN_UMC_JACK_SMD"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0.254 3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "UMC_JACK_SMD"
-				(at 2.921 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Janelia:UMC_AMPHENOL_A-1JB"
-				(at 0 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-				(at 0 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFN" "Amphenol RF"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "A-1JB"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Vendor" "Digi-Key"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Vendor Part Number" "115-A-1JBCT-ND"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CONN_UMC_JACK_SMD_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 0)
-					(mid 0.222 -1.8079)
-					(end -1.778 -0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.778 0.508)
-					(mid 0.2221 1.8084)
-					(end 1.778 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CONN_UMC_JACK_SMD_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "Ext"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Janelia:C_1uF_35V_0402"
 			(pin_numbers
 				(hide yes)
@@ -272,11 +56,11 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CAP CER 1UF 35V X5R"
-				(at 7.62 10.16 0)
+			(property "Description" "1 µF ±10% 35V Ceramic Capacitor X5R 0402 (1005 Metric)"
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
@@ -299,6 +83,15 @@
 					(hide yes)
 				)
 			)
+			(property "Synopsis" "CAP CER 1UF 35V X5R"
+				(at 7.62 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
 			(property "Package" "0402"
 				(at 0 0 0)
 				(effects
@@ -308,7 +101,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFN" "Samsung Electro-Mechanics"
+			(property "Manufacturer" "Samsung Electro-Mechanics"
 				(at 0 0 0)
 				(effects
 					(font
@@ -317,7 +110,16 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "CL05A105KL5NRNC"
+			(property "Manufacturer Part Number" "CL05A105KL5NRNC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C307413"
 				(at 0 0 0)
 				(effects
 					(font
@@ -446,11 +248,11 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CAP CER 30PF 50V C0G/NP0"
-				(at 7.62 10.16 0)
+			(property "Description" ""
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
@@ -473,6 +275,15 @@
 					(hide yes)
 				)
 			)
+			(property "Synopsis" "CAP CER 30PF 50V C0G/NP0"
+				(at 7.62 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
 			(property "Package" "0402"
 				(at 0 0 0)
 				(effects
@@ -482,7 +293,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFN" "KEMET"
+			(property "Manufacturer" "KEMET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -491,7 +302,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "C0402C300J5GACAUTO"
+			(property "Manufacturer Part Number" "C0402C300J5GACAUTO"
 				(at 0 0 0)
 				(effects
 					(font
@@ -619,14 +430,15 @@
 				)
 			)
 			(property "Description" "2.7 GHz, High-Voltage, FET-Input, Low Noise, Operational Amplifier, WSON-8"
-				(at 0 25.4 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "MFN" "Texas Instruments"
+			(property "Manufacturer" "Texas Instruments"
 				(at 0 27.94 0)
 				(effects
 					(font
@@ -635,7 +447,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "OPA381AIDRBT"
+			(property "Manufacturer Part Number" "OPA381AIDRBT"
 				(at 0 33.02 0)
 				(effects
 					(font
@@ -660,6 +472,14 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Synopsis" "IC TRANSIMPEDANCE 1 CIRCUIT 8SON"
+				(at 0 25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "Sim.Enable" "0"
@@ -920,7 +740,7 @@
 				)
 			)
 			(property "Description" "Photodiode"
-				(at 0 10.16 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -928,7 +748,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFN" "American Bright Optoelectronics Corporation"
+			(property "Manufacturer" "American Bright Optoelectronics Corporation"
 				(at 0 15.24 0)
 				(effects
 					(font
@@ -937,7 +757,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "BPD-BQDA38V-FZ04"
+			(property "Manufacturer Part Number" "BPD-BQDA38V-FZ04"
 				(at 0 7.62 0)
 				(effects
 					(font
@@ -957,6 +777,15 @@
 			)
 			(property "Vendor Part Number" "BPD-BQDA38V-FZ04CT-ND"
 				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Synopsis" "SENSOR PHOTODIODE RADIAL"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1140,11 +969,11 @@
 					)
 				)
 			)
-			(property "Description" "RES 2.0M OHM 1% 0.66W"
-				(at 9.652 7.62 90)
+			(property "Description" ""
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
@@ -1167,6 +996,15 @@
 					(hide yes)
 				)
 			)
+			(property "Synopsis" "RES 2.0M OHM 1% 0.66W"
+				(at 9.652 7.62 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
 			(property "Package" "1206"
 				(at 0 0 0)
 				(effects
@@ -1176,7 +1014,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFN" "Panasonic Electronic Components"
+			(property "Manufacturer" "Panasonic Electronic Components"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1185,7 +1023,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "ERJ-PM8F2004V"
+			(property "Manufacturer Part Number" "ERJ-PM8F2004V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1404,16 +1242,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 106.68) (xy 200.66 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bb0320b-eab6-4ad1-ac27-f53d03c7f334")
-	)
-	(wire
-		(pts
 			(xy 81.28 93.98) (xy 81.28 96.52)
 		)
 		(stroke
@@ -1524,16 +1352,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 111.76) (xy 208.28 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fce5734f-dcbd-410e-aa3c-d5b56f20cacc")
-	)
-	(wire
-		(pts
 			(xy 128.27 64.77) (xy 128.27 82.55)
 		)
 		(stroke
@@ -1551,16 +1369,6 @@
 			(justify left bottom)
 		)
 		(uuid "07ac8491-3807-4480-9d9b-8553b6d4cc4a")
-	)
-	(label "GND"
-		(at 208.28 114.3 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "176432f3-3968-484f-bef3-e0709c9023ce")
 	)
 	(label "GND"
 		(at 114.3 95.25 270)
@@ -1611,16 +1419,6 @@
 			(justify left bottom)
 		)
 		(uuid "902665f2-78c1-4443-a6a6-897d9d021da7")
-	)
-	(label "PHOTODIODE_SIG"
-		(at 200.66 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "904db41d-adac-44fe-822d-44e109bc3e8a")
 	)
 	(label "GND"
 		(at 135.89 95.25 270)
@@ -1748,11 +1546,11 @@
 				)
 			)
 		)
-		(property "Description" "RES 2.0M OHM 1% 0.66W"
-			(at 130.81 55.118 90)
+		(property "Description" ""
+			(at 138.43 64.77 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -1784,7 +1582,16 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "Panasonic Electronic Components"
+		(property "Synopsis" "RES 2.0M OHM 1% 0.66W"
+			(at 130.81 55.118 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
 			(at 138.43 64.77 0)
 			(effects
 				(font
@@ -1793,7 +1600,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-PM8F2004V"
+		(property "Manufacturer Part Number" "ERJ-PM8F2004V"
 			(at 138.43 64.77 0)
 			(effects
 				(font
@@ -1821,7 +1628,7 @@
 		(lib_id "Janelia:OPA381")
 		(at 138.43 85.09 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -1862,26 +1669,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IC TRANSIMPEDANCE 1 CIRCUIT 8SON"
-			(at 138.43 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "Texas Instruments"
-			(at 138.43 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "OPA381AIDRBT"
-			(at 138.43 52.07 0)
+		(property "Description" "2.7 GHz, High-Voltage, FET-Input, Low Noise, Operational Amplifier, WSON-8"
+			(at 138.43 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1905,6 +1694,32 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 138.43 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "OPA381AIDRBT"
+			(at 138.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Synopsis" "IC TRANSIMPEDANCE 1 CIRCUIT 8SON"
+			(at 138.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "7"
@@ -1944,116 +1759,10 @@
 		)
 	)
 	(symbol
-		(lib_id "Janelia:CONN_UMC_JACK_SMD")
-		(at 208.28 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2d4a7fa-219d-4198-9179-3cc2010f51ea")
-		(property "Reference" "J3"
-			(at 212.09 107.6082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "UMC_JACK_SMD"
-			(at 211.201 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Janelia:UMC_AMPHENOL_A-1JB"
-			(at 208.28 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN UMC JACK STR 50 OHM SMD"
-			(at 208.28 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "Amphenol RF"
-			(at 208.28 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "A-1JB"
-			(at 208.28 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 208.28 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor Part Number" "115-A-1JBCT-ND"
-			(at 208.28 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b07de810-d027-4675-838e-bcd93f9c8584")
-		)
-		(pin "2"
-			(uuid "93de1193-67bb-431a-8928-649614de5b33")
-		)
-		(instances
-			(project "farseer_pcb"
-				(path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/6f9841bf-b0ef-48ff-bf2c-2bd611c72bf3"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Janelia:PHOTODIODE_940nm_RADIAL_RA_SMD_BRIGHT")
 		(at 114.3 90.17 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -2093,26 +1802,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SENSOR PHOTODIODE RADIAL"
-			(at 124.46 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "American Bright Optoelectronics Corporation"
-			(at 129.54 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BPD-BQDA38V-FZ04"
-			(at 121.92 90.17 0)
+		(property "Description" "Photodiode"
+			(at 114.3 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2131,6 +1822,33 @@
 		)
 		(property "Vendor Part Number" "BPD-BQDA38V-FZ04CT-ND"
 			(at 119.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "American Bright Optoelectronics Corporation"
+			(at 129.54 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "BPD-BQDA38V-FZ04"
+			(at 121.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Synopsis" "SENSOR PHOTODIODE RADIAL"
+			(at 124.46 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2197,11 +1915,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 35V X5R"
-			(at 88.9 78.74 0)
+		(property "Description" "1 µF ±10% 35V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 81.28 88.9 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -2233,7 +1951,16 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "Samsung Electro-Mechanics"
+		(property "Synopsis" "CAP CER 1UF 35V X5R"
+			(at 88.9 78.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 81.28 88.9 0)
 			(effects
 				(font
@@ -2242,7 +1969,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05A105KL5NRNC"
+		(property "Manufacturer Part Number" "CL05A105KL5NRNC"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307413"
 			(at 81.28 88.9 0)
 			(effects
 				(font
@@ -2310,11 +2046,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 30PF 50V C0G/NP0"
-			(at 128.27 46.99 0)
+		(property "Description" ""
+			(at 138.43 54.61 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -2346,7 +2082,16 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "KEMET"
+		(property "Synopsis" "CAP CER 30PF 50V C0G/NP0"
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
 			(at 138.43 54.61 0)
 			(effects
 				(font
@@ -2355,7 +2100,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C300J5GACAUTO"
+		(property "Manufacturer Part Number" "C0402C300J5GACAUTO"
 			(at 138.43 54.61 0)
 			(effects
 				(font

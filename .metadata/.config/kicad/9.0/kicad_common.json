@@ -5,7 +5,7 @@
   },
   "appearance": {
     "grid_striping": false,
-    "hicontrast_dimming_factor": 0.800000011920929,
+    "hicontrast_dimming_factor": 0.8,
     "icon_theme": 2,
     "show_scrollbars": false,
     "text_editor_zoom": 0,
@@ -88,7 +88,7 @@
     "file_history_size": 9,
     "language": "Default",
     "pdf_viewer_name": "",
-    "text_editor": "",
+    "text_editor": "emacs",
     "use_system_pdf_viewer": true,
     "working_dir": "/home/peter/Repositories/mechatronicmagic/farseer-pcb/farseer_pcb"
   }

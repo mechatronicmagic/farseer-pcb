@@ -477,10 +477,10 @@
     "version": 5
   },
   "netlist": {
-    "associate_by_ref_sch": false,
-    "delete_extra_footprints": false,
+    "associate_by_ref_sch": true,
+    "delete_extra_footprints": true,
     "delete_shorting_tracks": false,
-    "report_filter": -1,
+    "report_filter": 58,
     "update_footprints": true
   },
   "pcb_display": {
@@ -491,8 +491,8 @@
     "max_links_shown": 3,
     "net_names_mode": 3,
     "origin_invert_x_axis": false,
-    "origin_invert_y_axis": false,
-    "origin_mode": 0,
+    "origin_invert_y_axis": true,
+    "origin_mode": 2,
     "pad_clearance": true,
     "pad_fill": true,
     "pad_numbers": true,
@@ -563,7 +563,7 @@
       "/home/peter/Repositories/mechatronicmagic/farseer-pcb/farseer_pcb/farseer_pcb.kicad_pcb"
     ],
     "first_run_shown": false,
-    "last_footprint3d_dir": "",
+    "last_footprint3d_dir": "${KICAD_JANELIA_DIR}/3dmodels/Janelia.3dshapes",
     "last_footprint_lib_dir": "/home/peter/.local/share/kicad/9.0/footprints",
     "last_imperial_units": 5,
     "last_metric_units": 1,
@@ -604,7 +604,7 @@
   "window": {
     "cursor": {
       "always_show_cursor": true,
-      "fullscreen_cursor": false
+      "fullscreen_cursor": true
     },
     "display": 1,
     "footprint_text_shown_columns": "0 1 2 3 4 5 7",
@@ -612,7 +612,7 @@
       "axes_enabled": false,
       "fast_grid_1": 15,
       "fast_grid_2": 16,
-      "last_size": 15,
+      "last_size": 18,
       "line_width": 1.0,
       "min_spacing": 10.0,
       "override_connected": false,

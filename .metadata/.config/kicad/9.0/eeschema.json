@@ -11,15 +11,15 @@
   "appearance": {
     "color_theme": "_builtin_default",
     "default_font": "KiCad Font",
-    "edit_label_height": -1,
+    "edit_label_height": 484,
     "edit_label_visible_columns": "0 1 2 3 4 5 6 7",
-    "edit_label_width": -1,
-    "edit_sheet_height": -1,
+    "edit_label_width": 949,
+    "edit_sheet_height": 470,
     "edit_sheet_visible_columns": "0 1 2 3 4 5 6 7",
-    "edit_sheet_width": -1,
+    "edit_sheet_width": 1032,
     "edit_symbol_height": 603,
     "edit_symbol_visible_columns": "0 1 2 3 4 5 6 7",
-    "edit_symbol_width": 1117,
+    "edit_symbol_width": 1124,
     "erc_severities": 48,
     "footprint_preview": true,
     "mark_sim_exclusions": true,
@@ -188,9 +188,44 @@
     "esc_clears_net_highlight": true
   },
   "lib_tree": {
-    "column_widths": null,
-    "columns": [],
-    "open_libs": []
+    "column_widths": {
+      "Description": 600,
+      "Item": 300
+    },
+    "columns": [
+      "Item",
+      "Description"
+    ],
+    "open_libs": [
+      "Janelia",
+      "Interface_USB",
+      "Power_Protection",
+      "MCU_Microchip_AVR",
+      "Interface",
+      "Interface_Ethernet",
+      "Filter",
+      "MCU_Cypress",
+      "MCU_Microchip_ATmega",
+      "MCU_Microchip_PIC18",
+      "MCU_SiliconLabs",
+      "Power_Management",
+      "Interface_HID",
+      "MCU_Module",
+      "MCU_RaspberryPi",
+      "Regulator_Linear",
+      "MCU_Microchip_PIC24",
+      "MCU_Microchip_PIC32",
+      "MCU_NXP_Kinetis",
+      "MCU_NXP_LPC",
+      "MCU_NXP_S08",
+      "MCU_WCH_CH32V2",
+      "MCU_WCH_CH32X0",
+      "RF_GSM",
+      "Connector",
+      "Battery_Management",
+      "Audio",
+      "CPLD_Altera"
+    ]
   },
   "lib_view": {
     "cmp_list_width": 150,
@@ -291,13 +326,13 @@
     }
   },
   "symbol_chooser": {
-    "height": -1,
+    "height": 680,
     "keep_symbol": false,
     "place_all_units": true,
-    "sash_pos_h": -1,
-    "sash_pos_v": -1,
+    "sash_pos_h": 440,
+    "sash_pos_v": 460,
     "sort_mode": 0,
-    "width": -1
+    "width": 880
   },
   "system": {
     "file_history": [

@@ -6,14 +6,34 @@
 	(paper "A4")
 	(title_block
 		(title "farseer_pcb")
-		(date "2025-05-16")
+		(date "2025-05-20")
 		(rev "1.0")
 		(company "Mechatronic Magic")
 	)
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 113.03 111.76) (xy 110.49 111.76)
+			(xy 93.98 90.17) (xy 91.44 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b7b57f1-c144-41be-8526-4e93f29e6750")
+	)
+	(wire
+		(pts
+			(xy 121.92 90.17) (xy 124.46 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c36f13c-a067-4797-9e1b-82ddcd962ac1")
+	)
+	(wire
+		(pts
+			(xy 124.46 106.68) (xy 121.92 106.68)
 		)
 		(stroke
 			(width 0)
@@ -53,7 +73,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 109.22) (xy 110.49 109.22)
+			(xy 195.58 123.19) (xy 198.12 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "454600be-ba60-4e1b-ade6-3db8df342297")
+	)
+	(wire
+		(pts
+			(xy 91.44 106.68) (xy 93.98 106.68)
 		)
 		(stroke
 			(width 0)
@@ -73,7 +103,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 90.17) (xy 93.98 90.17)
+			(xy 121.92 92.71) (xy 124.46 92.71)
 		)
 		(stroke
 			(width 0)
@@ -93,7 +123,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 104.14) (xy 110.49 104.14)
+			(xy 124.46 104.14) (xy 121.92 104.14)
 		)
 		(stroke
 			(width 0)
@@ -123,7 +153,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 106.68) (xy 113.03 106.68)
+			(xy 93.98 104.14) (xy 91.44 104.14)
 		)
 		(stroke
 			(width 0)
@@ -132,7 +162,7 @@
 		(uuid "f4b7ae8f-1a5b-4f27-82fa-59fc8f630ccf")
 	)
 	(label "V10-"
-		(at 113.03 111.76 0)
+		(at 124.46 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -142,12 +172,12 @@
 		(uuid "072bce24-532e-4348-aac5-047d9afc8621")
 	)
 	(label "GND"
-		(at 113.03 109.22 0)
+		(at 91.44 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0aab090a-c8f2-4f45-86f2-c6083a341ad4")
 	)
@@ -162,12 +192,12 @@
 		(uuid "0d93d059-db9f-4e3b-a95f-596cbf7abb03")
 	)
 	(label "GND"
-		(at 91.44 90.17 180)
+		(at 124.46 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "1577ab84-c0fb-474e-a671-d41cfa3edc43")
 	)
@@ -182,7 +212,7 @@
 		(uuid "37589146-3c6f-4a82-ab6b-65b09a9293be")
 	)
 	(label "V10+"
-		(at 113.03 104.14 0)
+		(at 124.46 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -190,6 +220,16 @@
 			(justify left bottom)
 		)
 		(uuid "395ca9bc-87c0-493b-a29d-2b6124087b91")
+	)
+	(label "BANDPASS_BUFFERED"
+		(at 91.44 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "422ccb58-831d-44f6-96c6-66d3f19a86e3")
 	)
 	(label "V5+"
 		(at 166.37 96.52 180)
@@ -202,12 +242,12 @@
 		(uuid "5c88f9f7-47b8-4e09-b56a-a36aa2fc371a")
 	)
 	(label "V5+"
-		(at 113.03 106.68 0)
+		(at 91.44 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "5e070f7a-d5f8-41f4-b29f-a0d1d95dac61")
 	)
@@ -251,9 +291,29 @@
 		)
 		(uuid "c6e7128c-5bb7-4ce0-bb1d-6ca4a1bc4803")
 	)
+	(label "BANDPASS_BUFFERED"
+		(at 198.12 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd817f46-e3fd-43aa-86ff-73523d2e4b6d")
+	)
+	(label "V5+"
+		(at 124.46 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f71a9a86-b673-412d-acd4-9193acc72808")
+	)
 	(sheet
 		(at 93.98 87.63)
-		(size 12.7 5.08)
+		(size 27.94 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -267,7 +327,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "474094a0-f756-4a3b-83ef-1611abca3ce8")
-		(property "Sheetname" "assembly"
+		(property "Sheetname" "board"
 			(at 93.98 86.9184 0)
 			(effects
 				(font
@@ -276,8 +336,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "assembly.kicad_sch"
-			(at 93.98 93.2946 0)
+		(property "Sheetfile" "board.kicad_sch"
+			(at 93.98 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -286,8 +346,28 @@
 			)
 		)
 		(pin "GND" passive
-			(at 93.98 90.17 180)
+			(at 121.92 92.71 0)
 			(uuid "cb8ce3b4-99d9-48ad-bfc0-738f1cfe448f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V5+" passive
+			(at 121.92 90.17 0)
+			(uuid "da8334ee-4f04-4c8e-901b-b501b14a585d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BANDPASS_BUFFERED" input
+			(at 93.98 90.17 180)
+			(uuid "48efe089-da91-4540-9547-ff8bddfc4cd8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -305,7 +385,7 @@
 	)
 	(sheet
 		(at 168.91 110.49)
-		(size 19.05 12.7)
+		(size 26.67 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -329,7 +409,7 @@
 			)
 		)
 		(property "Sheetfile" "filter.kicad_sch"
-			(at 168.91 123.7746 0)
+			(at 168.91 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -377,6 +457,16 @@
 				(justify left)
 			)
 		)
+		(pin "BANDPASS_BUFFERED" output
+			(at 195.58 123.19 0)
+			(uuid "012db14c-c3e7-44fc-8b8d-50619283cd87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "farseer_pcb"
 				(path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4"
@@ -387,7 +477,7 @@
 	)
 	(sheet
 		(at 93.98 101.6)
-		(size 16.51 12.7)
+		(size 27.94 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -411,7 +501,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 93.98 114.8846 0)
+			(at 93.98 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -420,27 +510,27 @@
 			)
 		)
 		(pin "GND" passive
-			(at 110.49 109.22 0)
+			(at 93.98 106.68 180)
 			(uuid "18c834e5-19a5-4f8f-9620-6fa33a838757")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "V5+" passive
-			(at 110.49 106.68 0)
+			(at 93.98 104.14 180)
 			(uuid "b91f9a2a-1acc-427e-bab3-5eddf0f36d24")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "V10+" passive
-			(at 110.49 104.14 0)
+			(at 121.92 104.14 0)
 			(uuid "cd2bc53f-4491-4c42-a1c9-75c708a561dc")
 			(effects
 				(font
@@ -450,7 +540,7 @@
 			)
 		)
 		(pin "V10-" passive
-			(at 110.49 111.76 0)
+			(at 121.92 106.68 0)
 			(uuid "2370be54-033e-4ec2-aafb-a06f11d6deb3")
 			(effects
 				(font
